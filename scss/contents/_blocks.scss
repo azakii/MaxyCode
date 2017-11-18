@@ -1,0 +1,9 @@
+//home slider block
+
+.bg-overlay {
+	position: relative;
+	background: rgba(17, 17, 17, 0.9);
+	.container {
+		position:absolute;top: 0;width: 100%;
+	}
+}

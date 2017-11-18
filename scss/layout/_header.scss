@@ -1,0 +1,16 @@
+.navbar-nav {
+	margin-top: 15px;
+	li {
+		a {
+		font-weight: 400;
+		letter-spacing: 1px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		}
+		&:last-child {
+			background-color: #373737;
+			border: 1px #FFFFFF solid;
+			border-radius: 40px;
+		}
+	}
+}

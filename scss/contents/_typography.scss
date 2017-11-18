@@ -1,0 +1,104 @@
+body, h1, h2, h3, h4, h5, h6, p {
+
+}
+
+h1 {
+  font-size: 1.875rem; /* ~ 30px */
+  font-weight:600;
+}
+
+h2 {
+  font-size: 1.375em; /* ~ 22px */
+
+}
+
+.region-content h2:first-child {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.125em; /* ~ 18px */
+  font-weight: 500;
+}
+
+.well {box-shadow: none;}
+
+h4 {
+  font-size: 1em; /* ~ 16px */
+}
+
+p {
+  font-size: 1em;
+  padding-bottom: 1em;
+  line-height: 1.5em;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.hideIt {
+  display: none !important;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow: auto;
+  padding: 1px;
+  clear: both;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1em; /*  table-layout: fixed; */
+}
+
+a, a:focus, a:active, a:hover, object, embed {
+  outline: none;
+  text-decoration: none;
+}
+
+:-moz-any-link:focus {
+  outline: none;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.whiteTxt {
+  color: #fff;
+}
+//gaps
+
+.gap50 {
+  padding-top: 50px;
+  clear: both;
+}
+.gap30 {
+  padding-top: 50px;
+  clear: both;
+}
+.gap20 {
+  padding-top: 20px;
+  clear: both;
+}
+.section {
+  padding:50px 0 !important;
+}
+input[type="submit"], button {
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.nopadding { padding: 0; }

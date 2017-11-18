@@ -1,0 +1,20 @@
+/*
+	MC Theme
+	Author: ah.zakii@hotmail.com
+	Version 0.0.1
+*/
+
+// Lib
+@import 'lib/_animate.scss';
+
+// Base
+@import 'base/_normalize.scss';
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+
+// Contents
+@import 'contents/_typography.scss';
+@import 'contents/_blocks.scss';
+@import 'contents/_forms.scss';
+@import 'layout/_footer.scss';
+@import 'layout/_header.scss';

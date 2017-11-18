@@ -1,0 +1,147 @@
+/*
+	MC Responsive Theme
+	Author: azaki
+	Version 0.0.1
+*/
+/* Large Devices */
+
+@media only screen and (min-width: 1210px) {
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* 1024 Devices */
+@media only screen and (min-width:990px) and (max-width: 1024px) {
+  #services .even {padding:1rem 1rem;height: 428px;overflow: scroll;}
+
+}
+@media only screen and (max-width:990px) and (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .navbar-header {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-brand>img {display: inline;}
+  .navbar-custom .navbar-brand {width: 100%;}
+
+}
+@media only screen and (max-width: 1024px) {
+
+.navbar-custom .navbar-toggle {background-color: transparent;border: 0;font-size: 23px;}
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {background-color: transparent;}
+header.parallax-window.home {width:100%;background-image: url(../img/bg.jpg) !important;}
+#services .odd {padding: 1rem 2rem;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .intro-text {text-align: center;padding-left: 0%;}
+  #large-header {height:80vh !important;}
+  #services .odd, #services .even {padding:1rem 2rem;}
+  .desc {clear:both;}
+  section#contact {background-image: url(../img/f-bg.jpg)!important;background-size:cover !important;}
+  footer .text-left, footer .text-right {text-align: center;}
+  #services .odd, #services .even {}
+ .parallax-window {min-height:320px;}
+  #large-header {height: 60vh !important;}
+  header .intro-text .intro-heading {font-size: 30px;}
+  h1 {font-size:2.500rem;}
+  .socialMedia {width:100%;margin-right: 0;}
+  .slogo {display: none;}
+  .row-content.service .col-md-3 {
+    text-align: center;
+  }
+  .iconFont {visibility: hidden;width:50%}
+  .floatingTxt {width:100%;}
+}
+
+
+/* Portrait and Landscape */
+@media (min-device-width: 768px)  and (max-device-width: 991px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .row-content {padding:15px 5%;}
+  .number {right: 0%;height:auto;width: 100%;position: relative;text-align: center;}
+  .number::after {display: none;}
+  .number span, .light .number span, .black .number span, .light.last .number span {top:5%;left:0%;height:auto;width: 50px;position: relative;}
+  .light.last .number {right: 0%;height:auto;width: 100%;position: relative;}
+  .row-content.slider {padding:0% 5%;}
+  .light .number, .black .number {position: relative;height: auto;text-align: center;right:0;}
+  .svg1 {
+    width: 460px;
+    height: 370px;
+  }
+  .services-cols-container .service-col .head {padding-top: 7px;}
+  #step-one, #step-two, #step-three, #step-four {height: auto;}
+  .card.captionHover img {height:auto !important;}
+  .album .container {width:auto;}
+  .album {
+    min-height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .captionHover p.card-text {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+	header .intro-text {
+	padding-left: 10%;
+  padding-top: 140px;
+	}
+	.testimonial .description {
+	   padding: 0;
+	   margin-left:0;
+	}
+	.testimonial .description:after {
+	display:none;
+	}
+	.testimonial {
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align:center;
+	}
+	.testimonial .description {
+	text-align:center;
+	}
+	.testimonial .testimonial-content {
+	margin: 20px 0 0 0;
+	}
+  .services-cols-container .service-col .head {padding-top: 27px;}
+  .navbar-custom .nav li a {    padding: 15px 20px;}
+	#exTab1 ul.nav li {float:none;display: inline-block;}
+	#exTab1 ul.nav {text-align:center;   }
+	.steps-container-2 {display:none;}
+	.services-cols-container .service-col .head {margin-top: -40px;}
+	.bg-overlay.inner .even h1 span label {font-size:1.3em;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+.card {width:100%;}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 1200px) {
+  .parallax-window#contact {
+      background: transparent !important;
+  }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
